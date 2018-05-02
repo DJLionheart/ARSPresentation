@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer reducer returns luke 1`] = `
+Immutable.Map {
+  "luke": Immutable.Map {
+    "name": "Luke Skywalker",
+    "from": "Swapi",
+  },
+}
+`;

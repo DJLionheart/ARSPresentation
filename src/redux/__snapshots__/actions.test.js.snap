@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions action.setLuke 1`] = `
+Object {
+  "payload": Object {
+    "from": "Swapi",
+    "name": "Luke Skywaler",
+  },
+  "type": "LUKE",
+}
+`;
+
+exports[`actions actions.fetchLuke 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "from": "Swapi",
+      "name": "Luke Skywaler",
+    },
+    "type": "LUKE",
+  },
+]
+`;
