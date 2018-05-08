@@ -92,7 +92,7 @@ const getErrorMessage = error => {
 
 const processError = (response, reject) => {
   if (response.status === 401) {
-    ssoLogout()
+    // do something
   }
   return response.text()
     .then(error => JSON.parse(error))
