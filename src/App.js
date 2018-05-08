@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { Map } from 'immutable'
 
 import * as selectors from './redux/selectors'
 import Luke from './assets/luke.png'
